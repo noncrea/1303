@@ -73,3 +73,12 @@ figcaption {
 p {
     line-height: 1.5em;
 }
+footer {
+    background-color: black;
+    color: white;padding: 2px;
+}
+footer section h2 {color: white;padding-left: 20px;}
+}
+.validator {color: white; padding: 60px;}
+#html5 {background-image: url(../assets/svg/w3c/html5.svg);background-color: blue;}
+
