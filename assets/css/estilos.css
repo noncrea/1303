@@ -2,7 +2,8 @@
 
 body {
     padding: 2vw;
-    background-color: lightgrey;text-decoration: none;
+    background-color: lightgrey;
+    text-decoration: none;
 }
 
 section header {
@@ -41,6 +42,7 @@ figure.html5 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 figure.wcag {
     width: 88px;
     height: 31px;
@@ -49,6 +51,7 @@ figure.wcag {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 figure.css {
     width: 88px;
     height: 31px;
@@ -58,10 +61,69 @@ figure.css {
     background-size: cover;
 }
 
+/*
+.caja {
+    width: 40%;
+    height: 320px;
+    background-color: burlywood;
+    background-position: 50% 70%;
+    background-image: url(https://wallpapercave.com/wp/wp4341800.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+*/
+
+article.imagen:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(https://wallpapercave.com/wp/wp4341800.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    opacity: 0.9;
+    margin-bottom: 2em;
+
+}
+
+article.imagen:after {
+       width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-bottom: 2em;
+}
+
+
+article.imagen h2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+}
+
+article.imagen p {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-top: 12em;
+    margin-bottom: 2em;
+    
+}
+
+article.imagen {position: relative; margin-bottom: 2em;background-color: black;
+}
+
+
+
 /* Título centrado dentro de la imagen */
 header.portada {
     position: relative;
 }
+
 
 header.portada h2 {
     position: absolute;
@@ -82,10 +144,20 @@ header.portada h2 {
     border-color: crimson;
     border-radius: 15px;
 }
+
 footer {
     background-color: green;
-    color: white;padding: 2px;
+    color: white;
+    padding: 2px;
 }
-footer section h2 {color: white;padding-left: 20px;}
+
+footer section h2 {
+    color: white;
+    padding-left: 1em;
 }
-.validator {color: white; padding: 60px;}
+}
+
+.validator {
+    color: white;
+    padding: 2em;
+}

@@ -73,4 +73,9 @@ figcaption {
 p {
     line-height: 1.5em;
 }
-
+.validator a {text-decoration: none;color: white;}
+.rss {text-decoration: none;color: white;}
+li {text-decoration: none;}
+li.justify {text-decoration: none; color: white;}
+ul {margin-left: 20px;}
+.cross-centro legal {text-decoration: none; color: white;}
