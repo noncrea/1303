@@ -67,7 +67,7 @@ header.portada h2 {
     border-radius: 15px;
 }
 footer {
-    background-color: darkgray;
+    background-color: gray;
     color: white;padding: 2px;
 }
 footer section h2 {color: white;padding-left: 20px;}
