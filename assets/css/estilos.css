@@ -41,6 +41,22 @@ figure.html5 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+figure.wcag {
+    width: 88px;
+    height: 31px;
+    background-image: url(../svg/w3c/wcag.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+figure.css {
+    width: 88px;
+    height: 31px;
+    background-image: url(../svg/w3c/css.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* Título centrado dentro de la imagen */
 header.portada {
